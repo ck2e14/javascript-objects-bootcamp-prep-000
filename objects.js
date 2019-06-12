@@ -1,0 +1,9 @@
+var playlist = {Stormzy: 'Vossi Bop'};
+
+//Limitation appears to be that Artist name cannot be two words separated??
+
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle
+  return playlist
+}
+
